@@ -1,0 +1,97 @@
+gene,diseases,n_diseases,degree,pleiotropic,pubmed
+PTPN22,"Lupus (SLE), Rheumatoid Arthritis, Type 1 Diabetes",3,3,True,14647274
+PCSK9,"Coronary Artery Disease, Familial Hypercholesterolemia",2,2,True,15654334
+APOE,"Alzheimer Disease, Coronary Artery Disease",2,2,True,8346443
+LDLR,"Coronary Artery Disease, Familial Hypercholesterolemia",2,2,True,9390937
+APOB,"Coronary Artery Disease, Familial Hypercholesterolemia",2,2,True,11073740
+GBA,"Parkinson Disease, Gaucher Disease",2,2,True,19846850
+APP,"Alzheimer Disease, Down Syndrome",2,2,True,1671712
+HLA-DRB1,"Rheumatoid Arthritis, Type 1 Diabetes",2,2,True,8893090
+STAT4,"Lupus (SLE), Rheumatoid Arthritis",2,2,True,18204448
+FMR1,"Autism Spectrum Disorder, Fragile X Syndrome",2,2,True,2180487
+SOD1,"Down Syndrome, Amyotrophic Lateral Sclerosis",2,2,True,8271574
+TCF7L2,Type 2 Diabetes,1,1,False,17293463
+PPARG,Type 2 Diabetes,1,1,False,10545951
+KCNJ11,Type 2 Diabetes,1,1,False,15781101
+GCK,Type 2 Diabetes,1,1,False,9039267
+HNF1A,Type 2 Diabetes,1,1,False,17855067
+SLC30A8,Type 2 Diabetes,1,1,False,17293464
+CDKAL1,Type 2 Diabetes,1,1,False,17460697
+MTNR1B,Type 2 Diabetes,1,1,False,19060910
+ADCY5,Type 2 Diabetes,1,1,False,20581827
+LPA,Coronary Artery Disease,1,1,False,19106084
+CETP,Coronary Artery Disease,1,1,False,18193043
+HMGCR,Coronary Artery Disease,1,1,False,17634449
+SH2B3,Coronary Artery Disease,1,1,False,19198612
+BRCA1,Breast Cancer,1,1,False,7545954
+BRCA2,Breast Cancer,1,1,False,8524414
+TP53,Breast Cancer,1,1,False,1565144
+PALB2,Breast Cancer,1,1,False,17200671
+ATM,Breast Cancer,1,1,False,16116422
+CHEK2,Breast Cancer,1,1,False,12610780
+APC,Colorectal Cancer,1,1,False,1651174
+MLH1,Colorectal Cancer,1,1,False,7951315
+MSH2,Colorectal Cancer,1,1,False,7951315
+MSH6,Colorectal Cancer,1,1,False,9590181
+KRAS,Colorectal Cancer,1,1,False,17671637
+BRAF,Colorectal Cancer,1,1,False,15897572
+SNCA,Parkinson Disease,1,1,False,9197268
+LRRK2,Parkinson Disease,1,1,False,15541309
+PINK1,Parkinson Disease,1,1,False,15029634
+PRKN,Parkinson Disease,1,1,False,9560156
+DJ1,Parkinson Disease,1,1,False,12564870
+PSEN1,Alzheimer Disease,1,1,False,7596406
+PSEN2,Alzheimer Disease,1,1,False,7584071
+CLU,Alzheimer Disease,1,1,False,19734902
+BIN1,Alzheimer Disease,1,1,False,19734902
+CFTR,Cystic Fibrosis,1,1,False,2475911
+HBB,Sickle Cell Disease,1,1,False,13054797
+BCL11A,Sickle Cell Disease,1,1,False,19196962
+LDLRAP1,Familial Hypercholesterolemia,1,1,False,12471198
+ACE,Hypertension,1,1,False,8723067
+AGT,Hypertension,1,1,False,8423673
+AGTR1,Hypertension,1,1,False,9570186
+NOS3,Hypertension,1,1,False,9633806
+ADD1,Hypertension,1,1,False,9633807
+INS,Type 1 Diabetes,1,1,False,9753729
+CTLA4,Type 1 Diabetes,1,1,False,10619861
+IL2RA,Type 1 Diabetes,1,1,False,17554260
+TNFAIP3,Rheumatoid Arthritis,1,1,False,17804836
+PADI4,Rheumatoid Arthritis,1,1,False,12754510
+SHANK3,Autism Spectrum Disorder,1,1,False,17558391
+NLGN3,Autism Spectrum Disorder,1,1,False,12669065
+NRXN1,Autism Spectrum Disorder,1,1,False,18179900
+CHD8,Autism Spectrum Disorder,1,1,False,24267886
+PTEN,Autism Spectrum Disorder,1,1,False,15805158
+DISC1,Schizophrenia,1,1,False,11062471
+DTNBP1,Schizophrenia,1,1,False,12098051
+NRG1,Schizophrenia,1,1,False,12089511
+COMT,Schizophrenia,1,1,False,11385583
+22q11,Schizophrenia,1,1,False,8290963
+F8,Hemophilia A,1,1,False,2834511
+F9,Hemophilia B,1,1,False,2433168
+FBN1,Marfan Syndrome,1,1,False,1303228
+TGFBR1,Marfan Syndrome,1,1,False,15731757
+TGFBR2,Marfan Syndrome,1,1,False,15731757
+HTT,Huntington Disease,1,1,False,8458085
+DMD,Duchenne Muscular Dystrophy,1,1,False,2885835
+SGCA,Duchenne Muscular Dystrophy,1,1,False,9285790
+PAH,Phenylketonuria,1,1,False,2897727
+GCH1,Phenylketonuria,1,1,False,7874130
+ATP7B,Wilson Disease,1,1,False,8298641
+GLA,Fabry Disease,1,1,False,4859836
+NF1,Neurofibromatosis 1,1,1,False,2675589
+TSC1,Tuberous Sclerosis,1,1,False,9291101
+TSC2,Tuberous Sclerosis,1,1,False,8162069
+DYRK1A,Down Syndrome,1,1,False,10079247
+SHOX,Turner Syndrome,1,1,False,9590291
+AR,Klinefelter Syndrome,1,1,False,9020839
+TREX1,Lupus (SLE),1,1,False,17660530
+IRF5,Lupus (SLE),1,1,False,15716159
+BLK,Lupus (SLE),1,1,False,18204447
+HLA-DQ2,Celiac Disease,1,1,False,2002548
+HLA-DQ8,Celiac Disease,1,1,False,2002548
+MYO9B,Celiac Disease,1,1,False,15895351
+TDP-43,Amyotrophic Lateral Sclerosis,1,1,False,17215369
+FUS,Amyotrophic Lateral Sclerosis,1,1,False,19251628
+C9orf72,Amyotrophic Lateral Sclerosis,1,1,False,21944778

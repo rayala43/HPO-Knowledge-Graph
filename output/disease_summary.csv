@@ -1,0 +1,33 @@
+disease,category,n_genes,hpo_id,omim,description
+Type 2 Diabetes,Metabolic,9,HP:0005978,125853,Impaired insulin secretion and/or insulin resistance causing hyperglycemia
+Coronary Artery Disease,Cardiovascular,8,HP:0001695,608320,Atherosclerotic narrowing of coronary arteries leading to myocardial ischemia
+Breast Cancer,Oncology,6,HP:0003002,114480,Malignant neoplasm of breast epithelial tissue
+Colorectal Cancer,Oncology,6,HP:0003003,114500,Malignant neoplasm of the colon or rectum
+Parkinson Disease,Neurological,6,HP:0001300,168600,Progressive neurodegenerative disorder of dopaminergic neurons
+Alzheimer Disease,Neurological,6,HP:0002511,104300,Progressive neurodegenerative dementia with amyloid plaques and tau tangles
+Autism Spectrum Disorder,Neurological,6,HP:0000729,209850,Neurodevelopmental condition affecting social communication and behavior
+Hypertension,Cardiovascular,5,HP:0000822,145500,Persistent elevation of arterial blood pressure
+Type 1 Diabetes,Metabolic,5,HP:0100651,222100,Autoimmune destruction of pancreatic beta cells causing absolute insulin deficiency
+Rheumatoid Arthritis,Autoimmune,5,HP:0001370,180300,Systemic autoimmune disease causing symmetric inflammatory polyarthritis
+Schizophrenia,Neurological,5,HP:0100753,181500,"Severe psychiatric disorder with psychosis, cognitive deficits, and negative symptoms"
+Lupus (SLE),Autoimmune,5,HP:0002725,152700,Systemic autoimmune disease with multi-organ involvement and anti-nuclear antibodies
+Familial Hypercholesterolemia,Metabolic,4,HP:0003124,143890,Autosomal dominant disorder of LDL cholesterol metabolism
+Amyotrophic Lateral Sclerosis,Neurological,4,HP:0007354,105400,Progressive motor neuron disease causing muscle weakness and paralysis
+Marfan Syndrome,Connective Tissue,3,HP:0001166,154700,"Autosomal dominant connective tissue disorder with cardiovascular, ocular, skeletal features"
+Down Syndrome,Chromosomal,3,HP:0001249,190685,Trisomy 21 causing intellectual disability and characteristic phenotype
+Celiac Disease,Autoimmune,3,HP:0002608,212750,Gluten-triggered autoimmune enteropathy in genetically susceptible individuals
+Sickle Cell Disease,Hematological,2,HP:0007760,603903,Autosomal recessive hemoglobinopathy causing vaso-occlusive crises
+Duchenne Muscular Dystrophy,Muscular,2,HP:0003560,310200,X-linked progressive muscle degeneration due to dystrophin absence
+Phenylketonuria,Metabolic,2,HP:0001360,261600,Autosomal recessive disorder of phenylalanine metabolism
+Tuberous Sclerosis,Neurological,2,HP:0001250,191100,Autosomal dominant disorder causing hamartomas in multiple organ systems
+Cystic Fibrosis,Respiratory,1,HP:0002099,219700,Autosomal recessive multisystem disease affecting ion transport
+Hemophilia A,Hematological,1,HP:0001836,306700,X-linked coagulation disorder due to Factor VIII deficiency
+Hemophilia B,Hematological,1,HP:0001836,306900,X-linked coagulation disorder due to Factor IX deficiency
+Huntington Disease,Neurological,1,HP:0002072,143100,Autosomal dominant neurodegenerative disorder with CAG repeat expansion
+Wilson Disease,Metabolic,1,HP:0001410,277900,Autosomal recessive copper metabolism disorder
+Gaucher Disease,Metabolic,1,HP:0001394,230800,Lysosomal storage disorder due to glucocerebrosidase deficiency
+Fabry Disease,Metabolic,1,HP:0003429,301500,X-linked lysosomal storage disorder due to alpha-galactosidase A deficiency
+Neurofibromatosis 1,Neurological,1,HP:0006746,162200,Autosomal dominant disorder causing neurofibromas and cafe-au-lait spots
+Fragile X Syndrome,Neurological,1,HP:0000752,300624,X-linked intellectual disability due to FMR1 gene silencing
+Turner Syndrome,Chromosomal,1,HP:0000786,163950,"45,X monosomy causing short stature, gonadal dysgenesis in females"
+Klinefelter Syndrome,Chromosomal,1,HP:0000744,312865,"47,XXY karyotype causing hypogonadism and infertility in males"

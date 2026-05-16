@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HPO Knowledge Graph — Dashboard</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',system-ui,sans-serif;background:#0F172A;color:#E2E8F0;line-height:1.6}
+  .header{background:linear-gradient(135deg,#1E3A5F,#1a5276);padding:32px 40px;border-bottom:1px solid #334155}
+  .header h1{font-size:24px;font-weight:700;color:#F1F5F9}
+  .header p{color:#94A3B8;font-size:14px;margin-top:6px}
+  .container{max-width:1100px;margin:0 auto;padding:32px 24px}
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:16px;margin-bottom:36px}
+  .stat{background:#1E293B;border-radius:12px;padding:18px;text-align:center;border:1px solid #334155}
+  .stat .num{font-size:30px;font-weight:700;color:#60A5FA}
+  .stat .lbl{font-size:11px;color:#94A3B8;text-transform:uppercase;letter-spacing:.5px;margin-top:4px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px}
+  .card{background:#1E293B;border-radius:14px;padding:24px;border:1px solid #334155;
+         text-decoration:none;color:inherit;display:block;transition:border-color .2s,transform .15s}
+  .card:hover{border-color:#60A5FA;transform:translateY(-2px)}
+  .card-icon{font-size:32px;margin-bottom:12px}
+  .card h3{font-size:16px;font-weight:600;color:#F1F5F9;margin-bottom:6px}
+  .card p{font-size:13px;color:#94A3B8}
+  .footer{text-align:center;color:#475569;font-size:12px;margin-top:48px;padding-bottom:24px}
+  .badge{display:inline-block;background:#1E3A5F;color:#60A5FA;border-radius:99px;
+          padding:2px 10px;font-size:11px;margin:2px}
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>🧬 HPO Gene–Phenotype Knowledge Graph</h1>
+  <p>Interactive exploration of gene–disease associations across 32 medical conditions · HPO · OMIM · ClinVar · GWAS Catalog</p>
+  <div style="margin-top:12px">
+    <span class="badge">32 Conditions</span>
+    <span class="badge">96 Unique Genes</span>
+    <span class="badge">108 Gene–Disease Links</span>
+    <span class="badge">11 Pleiotropic Genes</span>
+    <span class="badge">10 Disease Categories</span>
+  </div>
+</div>
+<div class="container">
+  <div class="stats">
+    <div class="stat"><div class="num">32</div><div class="lbl">Diseases</div></div>
+    <div class="stat"><div class="num">96</div><div class="lbl">Genes</div></div>
+    <div class="stat"><div class="num">108</div><div class="lbl">Gene–Disease Links</div></div>
+    <div class="stat"><div class="num">11</div><div class="lbl">Pleiotropic Genes</div></div>
+    <div class="stat"><div class="num">108</div><div class="lbl">Graph Edges</div></div>
+    <div class="stat"><div class="num">0.0133</div><div class="lbl">Graph Density</div></div>
+  </div>
+  <div class="grid">
+    <a class="card" href="hpo_knowledge_graph.html" target="_blank">
+      <div class="card-icon">🕸️</div>
+      <h3>Interactive Knowledge Graph</h3>
+      <p>Force-directed Pyvis network · Drag, zoom, hover for details · Gene–disease–phenotype connections</p>
+    </a>
+    <a class="card" href="degree_distribution.html" target="_blank">
+      <div class="card-icon">📊</div>
+      <h3>Gene Connectivity Chart</h3>
+      <p>Top 25 genes by graph degree · Orange = pleiotropic (bridges multiple diseases)</p>
+    </a>
+    <a class="card" href="genes_per_category.html" target="_blank">
+      <div class="card-icon">🗂️</div>
+      <h3>Genes per Disease Category</h3>
+      <p>How many unique genes are linked to each disease category (Metabolic, Neurological, etc.)</p>
+    </a>
+    <a class="card" href="pleiotropy.html" target="_blank">
+      <div class="card-icon">🔀</div>
+      <h3>Pleiotropic Gene Analysis</h3>
+      <p>Genes that connect multiple diseases — key drug targets and shared pathways</p>
+    </a>
+    <a class="card" href="category_pie.html" target="_blank">
+      <div class="card-icon">🥧</div>
+      <h3>Disease Category Breakdown</h3>
+      <p>32 conditions distributed across 10 clinical categories</p>
+    </a>
+    <a class="card" href="gene_summary.csv" target="_blank">
+      <div class="card-icon">📋</div>
+      <h3>Gene Summary CSV</h3>
+      <p>Per-gene table: diseases, degree, pleiotropic flag, PubMed reference</p>
+    </a>
+  </div>
+  <div style="margin-top:36px;background:#1E293B;border-radius:12px;padding:20px;border:1px solid #334155">
+    <h3 style="color:#F1F5F9;margin-bottom:10px">Pleiotropic Genes (bridging ≥2 diseases)</h3>
+    <p style="color:#94A3B8;font-size:13px;line-height:1.8">
+      <span class="badge">APOB</span> <span class="badge">APOE</span> <span class="badge">APP</span> <span class="badge">FMR1</span> <span class="badge">GBA</span> <span class="badge">HLA-DRB1</span> <span class="badge">LDLR</span> <span class="badge">PCSK9</span> <span class="badge">PTPN22</span> <span class="badge">SOD1</span> <span class="badge">STAT4</span>
+    </p>
+  </div>
+</div>
+<div class="footer">
+  Data: HPO (hpo.jax.org) · OMIM (omim.org) · ClinVar · GWAS Catalog &nbsp;|&nbsp;
+  Built by <strong>Rayala Madhu Bhanu Varma</strong> · Lead Data Scientist · GenepoweRx
+</div>
+</body>
+</html>
