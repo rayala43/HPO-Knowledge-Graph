@@ -264,7 +264,7 @@ def _build_index(outdir: Path, stats: dict):
 </div>
 <div class="footer">
   Data: HPO (hpo.jax.org) · OMIM (omim.org) · ClinVar · GWAS Catalog &nbsp;|&nbsp;
-  Built by <strong>Rayala Madhu Bhanu Varma</strong> · Lead Data Scientist · GenepoweRx
+  Built by <strong>Rayala Madhu Bhanu Varma</strong> · Lead Data Scientist 
 </div>
 </body>
 </html>"""
