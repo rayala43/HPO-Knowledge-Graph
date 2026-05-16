@@ -93,6 +93,17 @@ All annotations are peer-reviewed and sourced from:
 
 ---
 
+## Output snapshots
+<img width="1866" height="936" alt="image" src="https://github.com/user-attachments/assets/59d8d485-d651-4069-b947-d57667bfa127" />
+<img width="1310" height="597" alt="image" src="https://github.com/user-attachments/assets/865dd326-7d91-4c2a-a47b-0b866643761b" />
+<img width="1751" height="545" alt="image" src="https://github.com/user-attachments/assets/920c5ea0-03c0-4302-ba23-2259c823e17d" />
+<img width="1758" height="484" alt="image" src="https://github.com/user-attachments/assets/9169a481-ebef-4486-bf5b-9680b7b9804a" />
+<img width="1877" height="958" alt="image" src="https://github.com/user-attachments/assets/70f8f55b-1971-4fba-9e2a-b7f6a345a59a" />
+
+
+
+
+---
 ## Project Structure
 
 ```
@@ -156,5 +167,3 @@ Options:
 
 ---
 
-## License
-MIT
