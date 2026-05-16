@@ -2,7 +2,6 @@
 
 A NetworkX knowledge graph linking **96 genes → 108 associations → 32 diseases** using curated HPO, OMIM, ClinVar, and GWAS Catalog data. Outputs fully interactive HTML dashboards — no server required.
 
-Built from real-world clinical genomics experience at GenepoweRx.
 
 ---
 
